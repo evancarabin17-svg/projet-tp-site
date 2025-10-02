@@ -1,3 +1,5 @@
+body {background-color: grey;}
+
 header {background-color: black; color: white;}
 header {position:absolute; top: 0; left: 0; right: 0; padding: 3em 2em;}
     img{width: 7%;
@@ -14,6 +16,41 @@ header {position:absolute; top: 0; left: 0; right: 0; padding: 3em 2em;}
 
     a {color: white; }
     a:hover {color: greenyellow;}
+
+    .elem1 {margin-top: 200px; 
+        font-size: 1.2em; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: black;
+        position: absolute; top:50px; left:50px;
+        border:solid;}
+
+     .elem2 {margin-top: 200px; 
+        font-size: 1.2em; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: black;
+        position: absolute; top:50px; left:525px;
+        border:solid;}
+
+    .elem3 {margin-top: 200px; 
+        font-size: 1.2em; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: black;
+        position: absolute; top:50px; right:600px;
+        border:solid;}
+
+     .elem4 {margin-top: 200px; 
+        font-size: 1.2em; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: black;
+        position: absolute; top:50px; right:50px;
+        border:solid;}
+
+    .elem5 {margin-top: 200px; 
+        font-size: 1.2em; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: black;
+        position: absolute; top:350px; right:850px;
+        border:solid;}
 
 footer {background-color: black; color: white;}
 footer {position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 2em;}
