@@ -1,3 +1,5 @@
+body {background-color: grey;}
+
 header {background-color: black; color: white;}
 header {position:absolute; top: 0; left: 0; right: 0; padding: 3em 2em;}
     img{width: 7%;
@@ -15,7 +17,10 @@ header {position:absolute; top: 0; left: 0; right: 0; padding: 3em 2em;}
     a {color: white; }
     a:hover {color: greenyellow;}
 
-.elem1 {margin-top: 200px; font-size: 1.4em; font-family: Arial, Helvetica, sans-serif;}
+.elem1 {margin-top: 200px; 
+    font-size: 1.4em; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: black;}
 
 
 footer {background-color: black; color: white;}
