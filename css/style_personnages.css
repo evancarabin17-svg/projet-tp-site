@@ -1,29 +1,28 @@
 body {background-color: grey;}
 
 header {background-color: black; color: white;}
-header {position:absolute; top: 0; left: 0; right: 0; padding: 3em 2em;}
+header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
     img{width: 7%;
     height: auto;
 }
 
-    .flotte {position:absolute; top:0px; left:200px; right:0px}
-    .flotte0 {position:absolute; top:50px; left:200px; right:0px}
-    .flotte1 {position:absolute; top:100px; left:240px; right:0px}
-    .flotte2 {position:absolute; top:120px; left:240px; right:0px}
-    .flotte3 {position:absolute; top:140px; left:240px; right:0px}
-
+    .flotte {display: inline-block; vertical-align: top;}
     li {font-size: 1.1em;}
 
     a {color: white; }
     a:hover {color: greenyellow;}
 
-    .elem1 {margin-top: 200px; 
-        font-size: 0.9em; 
+    .image1 {margin-top: 200px; width: 10%; height:auto; 
+        position: absolute; top:180px; left:70px;}
+    .elem1 { margin-top:200px; 
+        font-family: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
-        position: absolute; top:450px; left:50px;
-        border:solid;}
+        position:absolute; top:450px; left: 50px;
+        border: solid;}
 
+    .image2 {margin-top: 200px; width: 11%; height:auto; 
+        position: absolute; top:175px; left:460px;}
     .elem2 {margin-top: 200px; 
         font-size: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
@@ -31,20 +30,26 @@ header {position:absolute; top: 0; left: 0; right: 0; padding: 3em 2em;}
         position: absolute; top:450px; left:450px;
         border:solid;}
 
+    .image3 {margin-top: 200px; width: 10%; height:auto; 
+        position: absolute; top:180px; right:790px;}
     .elem3 {margin-top: 200px; 
         font-size: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
-        position: absolute; top:450px; right: 850px;
+        position: absolute; top:450px; right: 780px;
         border:solid,}    
     
+    .image4 {margin-top: 200px; width: 11%; height:auto; 
+        position: absolute; top:175px; right:450px;}
     .elem4 {margin-top: 200px; 
         font-size: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
         position: absolute; top:450px; right:450px;
         border:solid;}   
-        
+    
+    .image5 {margin-top: 200px; width: 10%; height:auto; 
+        position: absolute; top:180px; right:50px;}
     .elem5 {margin-top: 200px; 
         font-size: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
@@ -53,5 +58,5 @@ header {position:absolute; top: 0; left: 0; right: 0; padding: 3em 2em;}
         border:solid;}
 
 
-footer {background-color: black; color: white;}
+footer {background-color: black; color: white; text-align: center;}
 footer {position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 2em;}

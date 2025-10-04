@@ -1,26 +1,22 @@
 body {background-color: grey;}
 
 header {background-color: black; color: white;}
-header {position:absolute; top: 0; left: 0; right: 0; padding: 3em 2em;}
+header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
     img{width: 7%;
     height: auto;
 }
 
-    .flotte {position:absolute; top:0px; left:200px; right:0px}
-    .flotte0 {position:absolute; top:50px; left:200px; right:0px}
-    .flotte1 {position:absolute; top:100px; left:240px; right:0px}
-    .flotte2 {position:absolute; top:120px; left:240px; right:0px}
-    .flotte3 {position:absolute; top:140px; left:240px; right:0px}
-
+    .flotte {display: inline-block; vertical-align: top;}
     li {font-size: 1.1em;}
 
     a {color: white; }
     a:hover {color: greenyellow;}
 
-.elem1 {margin-top: 200px; 
+.elem1 {margin-top: 260px; 
     font-size: 1.4em; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     color: black;}
 .elem1 {position: relative; top: 18px; left: 18px;}
-footer {background-color: black; color: white;}
+
+footer {background-color: black; color: white; text-align: center;}
 footer {position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 2em;}
