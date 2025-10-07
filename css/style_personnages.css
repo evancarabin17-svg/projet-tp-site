@@ -1,6 +1,6 @@
-body {background-color: grey;}
+body {background-color: bisque;}
 
-header {background-color: black; color: white;}
+header {background: linear-gradient(to right, black, red); color: white;}
 header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
     img{width: 7%;
     height: auto;
@@ -13,50 +13,60 @@ header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
     a:hover {color: greenyellow;}
 
     .image1 {margin-top: 200px; width: 10%; height:auto; 
-        position: absolute; top:180px; left:70px;}
+        position: absolute; top:180px; left:70px;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
     .elem1 { margin-top:200px; 
         font-family: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
-        position:absolute; top:450px; left: 50px;
-        border: solid;}
+        position: absolute; top:475px; left:65px;
+        border: solid;
+       }
 
     .image2 {margin-top: 200px; width: 11%; height:auto; 
-        position: absolute; top:175px; left:460px;}
+        position: absolute; top:180px; left:460px;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
     .elem2 {margin-top: 200px; 
         font-size: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
-        position: absolute; top:450px; left:450px;
-        border:solid;}
+        position: absolute; top:480px; left:465px;
+        border:solid;
+        }
 
     .image3 {margin-top: 200px; width: 10%; height:auto; 
-        position: absolute; top:180px; right:790px;}
+        position: absolute; top:180px; right:825px;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
     .elem3 {margin-top: 200px; 
         font-size: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
-        position: absolute; top:450px; right: 780px;
-        border:solid,}    
+        position: absolute; top:475px; right: 825px;
+        border:solid;
+        }    
     
     .image4 {margin-top: 200px; width: 11%; height:auto; 
-        position: absolute; top:175px; right:450px;}
+        position: absolute; top:180px; right:450px;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
     .elem4 {margin-top: 200px; 
         font-size: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
-        position: absolute; top:450px; right:450px;
-        border:solid;}   
+        position: absolute; top:480px; right:450px;
+        border:solid;
+        }   
     
     .image5 {margin-top: 200px; width: 10%; height:auto; 
-        position: absolute; top:180px; right:50px;}
+        position: absolute; top:180px; right:70px;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
     .elem5 {margin-top: 200px; 
         font-size: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
-        position: absolute; top:450px; right:50px;
-        border:solid;}
+        position: absolute; top:475px; right:77px;
+        border:solid;
+       }
 
 
-footer {background-color: black; color: white; text-align: center;}
+footer {background: linear-gradient(to right, black, red); color: white; text-align: center;}
 footer {position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 2em;}

@@ -1,6 +1,6 @@
-body {background-color: grey;}
+body {background-color: bisque;}
 
-header {background-color: black; color: white;}
+header {background: linear-gradient(to right, black, red); color: white;}
 header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
     img{width: 7%;
     height: auto;
@@ -18,5 +18,5 @@ header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
     color: black;}
 .elem1 {position: relative; top: 18px; left: 18px;}
 
-footer {background-color: black; color: white; text-align: center;}
+footer {background: linear-gradient(to right, black, red); color: white; text-align: center;}
 footer {position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 2em;}

@@ -1,6 +1,6 @@
-body {background-color: grey;}
+body {background-color: bisque;}
 
-header {background-color: black; color: white;}
+header {background: linear-gradient(to right, black, red); color: white;}
 header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
     img{width: 7%;
     height: auto;
@@ -17,35 +17,40 @@ header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
         position: absolute; top:50px; left:50px;
-        border:solid;}
+        border:solid;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
 
      .elem2 {margin-top: 200px; 
         font-size: 1.1em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
-        position: absolute; top:50px; left:450px;
-        border:solid;}
+        position: absolute; top:50px; left:500px;
+        border:solid;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
 
     .elem3 {margin-top: 200px; 
         font-size: 1.1em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
-        position: absolute; top:50px; right:500px;
-        border:solid;}
+        position: absolute; top:50px; right:550px;
+        border:solid;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
 
      .elem4 {margin-top: 200px; 
         font-size: 1.1em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
         position: absolute; top:50px; right:50px;
-        border:solid;}
+        border:solid;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
 
     .elem5 {margin-top: 200px; 
         font-size: 1.1em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         color: black;
-        position: absolute; top:335px; right:750px;
-        border:solid;}
+        position: absolute; top:335px; right:800px;
+        border:solid;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
 
-footer {background-color: black; color: white; text-align: center;}
+footer {background: linear-gradient(to right, black, red); color: white; text-align: center;}
 footer {position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 2em;}
