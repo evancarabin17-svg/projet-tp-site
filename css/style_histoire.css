@@ -1,6 +1,6 @@
 body {background-color: bisque;}
 
-header {background: linear-gradient(to right, black, red); color: white;}
+header {background: linear-gradient(to right, black, #6E0B14); color: white;}
 header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
     img{width: 7%;
     height: auto;
@@ -8,15 +8,16 @@ header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
 
     .flotte {display: inline-block; vertical-align: top;}
     li {font-size: 1.1em;}
+    h1 {font-style: italic;}
 
     a {color: white; }
     a:hover {color: greenyellow;}
 
-.elem1 {margin-top: 260px; 
-    font-size: 1.4em; 
+.elem1 {margin-top: 250px; 
+    font-size: 1.3em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     color: black;}
 .elem1 {position: relative; top: 18px; left: 18px;}
 
-footer {background: linear-gradient(to right, black, red); color: white; text-align: center;}
+footer {background: linear-gradient(to right, black, #6E0B14); color: white; text-align: center;}
 footer {position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 2em;}
