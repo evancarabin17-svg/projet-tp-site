@@ -13,61 +13,18 @@ header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
     a {color: white; }
     a:hover {color: greenyellow;}
 
-   .image1 {margin-top: 200px; width: 10%; height:auto; 
-        position: absolute; top:180px; left:70px;
-        border-radius: 10px; box-shadow: 6px 6px 25px;}
-    .elem1 { margin-top:200px; 
-        font-family: 0.9em; 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        color: black;
-        position: absolute; top:475px; left:65px;
-        border: solid;
-       }
-
-    .image2 {margin-top: 200px; width: 11%; height:auto; 
-        position: absolute; top:180px; left:460px;
-        border-radius: 10px; box-shadow: 6px 6px 25px;}
-    .elem2 {margin-top: 200px; 
+    .personnages { display: flex;
+                justify-content: space-around; align-items: flex-start;
+                margin: 30px;
+                margin-top: 65px; text-align: center;
+                }
+    .image {display: flex; flex-direction: column; align-items: center; width:auto;}
+    .image img {width: 170px; height: auto;
+            border-radius: 10px; box-shadow: 6px 6px 25px;}
+    .image {margin-top:250px;
         font-size: 0.9em; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        color: black;
-        position: absolute; top:480px; left:465px;
-        border:solid;
-        }
-
-    .image3 {margin-top: 200px; width: 10%; height:auto; 
-        position: absolute; top:180px; right:830px;
-        border-radius: 10px; box-shadow: 6px 6px 25px;}
-    .elem3 {margin-top: 200px; 
-        font-size: 0.9em; 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        color: black;
-        position: absolute; top:475px; right: 830px;
-        border:solid;
-        }    
-       
-    .image4 {margin-top: 200px; width: 11%; height:auto; 
-        position: absolute; top:180px; right:450px;
-        border-radius: 10px; box-shadow: 6px 6px 25px;}
-    .elem4 {margin-top: 200px; 
-        font-size: 0.9em; 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        color: black;
-        position: absolute; top:480px; right:450px;
-        border:solid;
-        }   
-    
-    .image5 {margin-top: 200px; width: 10%; height:auto; 
-        position: absolute; top:180px; right:70px;
-        border-radius: 10px; box-shadow: 6px 6px 25px;}
-    .elem5 {margin-top: 200px; 
-        font-size: 0.9em; 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        color: black;
-        position: absolute; top:475px; right:77px;
-        border:solid;
-       }
-
+        color: black; }
 
 footer {background: linear-gradient(to right, black, #6E0B14); color: white; text-align: center;}
 footer {position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 2em;}
