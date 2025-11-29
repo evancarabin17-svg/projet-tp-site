@@ -1,0 +1,61 @@
+body {background-color: bisque;}
+
+header {background: linear-gradient(to right, black, #6E0B14); color: white;}
+header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
+    img{width: 7%;
+    height: auto;
+}
+
+    .flotte {display: inline-block; vertical-align: top;}
+    li {font-size: 1.1em;}
+    h1 {font-style: italic;}
+
+    a {color: white; }
+    a:hover {color: greenyellow;}
+
+    .carrousel {
+        top: 40%;
+        right: 45%;
+        width: 11%;
+        height: auto;
+        position: absolute;
+        display: flex;
+    }
+
+    .carrousel button {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        top: 70%;
+        z-index: 2;
+        font-size: 1.2rem;
+        color: #6E0B14;
+        transform: translate(-50%);   
+    }
+
+    #prev {
+        left: -15px;
+    }
+    #next {
+        right: -180px;
+    }
+
+    .autres.active {
+        position: absolute;
+        opacity: 100%;
+    }
+    .autres {
+        position: absolute;
+        opacity: 0%;
+        transition: 0.5s ease;
+    }
+
+    .autres img {
+        display: block;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+footer {background: linear-gradient(to right, black, #6E0B14); color: white; text-align: center;}
+footer {position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 2em;}

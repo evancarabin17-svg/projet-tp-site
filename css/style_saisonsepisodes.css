@@ -1,0 +1,32 @@
+body {background-color: bisque;}
+
+header {background: linear-gradient(to right, black, #6E0B14); color: white;}
+header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
+    img{width: 7%;
+    height: auto;
+}
+
+    .flotte {display: inline-block; vertical-align: top;}
+    li {font-size: 1.1em;}
+    h1 {font-style: italic;}
+
+    a {color: white; }
+    a:hover {color: greenyellow;}
+
+    .alignement {display: flex; justify-content: space-around; align-items: flex-start;
+                margin: 5px;
+                margin-top: 40px;}
+
+    .elem {margin-top: 220px; 
+        font-size: 0.9em; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: black;
+        flex-basis: 240px;
+        border:solid; border-width: 2px; border-color: #222222;
+        border-radius: 10px; box-shadow: 6px 6px 25px;}
+
+    .titres1:hover {color:orangered}
+    .titres:hover {color:red;}
+
+footer {background: linear-gradient(to right, black, #6E0B14); color: white; text-align: center;}
+footer {position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 2em;}
