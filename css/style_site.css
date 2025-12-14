@@ -1,4 +1,4 @@
-body {background-color:bisque}
+body {background-color: bisque;}
 
 header {background: linear-gradient(to right, black, #6E0B14); color: white;}
 header {position:absolute; top: 0; left: 0; right: 0; padding: 1em 1em;}
